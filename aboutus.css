@@ -1,0 +1,50 @@
+main {
+    margin: 0 10%;
+}
+
+body {
+    display: flex;
+}
+
+.logo {
+    height: fit-content;
+}
+
+footer {
+    margin-bottom: 0;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#socials {
+    display: flex;
+}
+
+.social_link i {
+    margin: 0;
+    color: #313131;
+}
+
+.social_link {
+    color: #313131;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    flex-direction: column;
+    text-decoration: none;
+    background-color: rgb(216, 216, 216);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+    gap: 10px;
+    transition: background .25s ease;
+}
+
+#map {
+    height: 400px;
+    width: 600px;
+    }

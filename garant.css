@@ -1,0 +1,127 @@
+html,body {
+        position: relative;
+		height: 100%;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	flex-direction:column;
+	background: #eee;
+}
+*{
+	margin: 0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	flex-direction:column;
+	background: #eee;
+}
+.logo {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    font-size: 50px;
+    color: #fff;
+    background: #131313;
+}
+.graficlogo{
+	padding: 0;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+nav {
+    margin: auto;
+    padding: 15px 0;
+    margin-bottom: 25px;
+}
+.topnav {
+    font-size: 14px;
+    text-align: center;
+}
+.topnav a{
+	color: #131313;
+	padding: 14px 16px;
+	font-size: 15px; 
+}
+.topnav a:hover {
+    border-bottom: 2px solid #131313;
+}
+.chicha{
+	background: #cfcfcf
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+ul > li:before {
+    content: "–"; /* en dash here */
+    position: absolute;
+    margin-left: -1.1em; 
+}
+.textt{
+	padding: 0 5%;
+	text-indent: 25px;
+	margin-bottom: 20px;
+}
+.golov{
+	text-align: center;
+	padding: 20px 0;
+}
+
+
+
+.foot a{
+	color: #eee;
+	margin-left: 10px;
+}
+footer nav a:hover{
+	border-bottom: 1px solid #eee
+}
+.logo2{
+	/* border-bottom: 3px solid #eee; */
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 30px 0;
+	font-size: 50px;
+	color: #eee;
+}
+.fa-telegram{
+	font-size: 48px;
+	color: white;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.fa-instagram{
+	font-size: 48px;
+	color: white;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+footer{
+	width: 100%;
+	height: auto;
+	background: #131313;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 25px;
+}
+.foot{
+	color: white;
+	background: #131313;
+	width: 100%;
+}
+footer {
+	margin-top:auto;
+}

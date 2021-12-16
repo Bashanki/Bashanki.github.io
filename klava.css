@@ -1,0 +1,214 @@
+html,body {
+        position: relative;
+		height: 100%;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	flex-direction:column;
+	background: #eee;
+	 display: flex;
+}
+*{
+	margin: 0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	flex-direction:column;
+	background: #eee;
+}
+header {
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    font-size: 50px;
+    color: #fff;
+    background: #131313;
+}
+.graficlogo{
+	padding: 0;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+nav {
+    margin: auto;
+    padding: 15px 0;
+    margin-bottom: 25px;
+    width: 100%; 
+}
+.topnav {
+    font-size: 14px;
+    text-align: center;
+}
+.topnav a{
+	color: #131313;
+	padding: 14px 16px;
+	font-size: 15px; 
+}
+.topnav a:hover {
+    border-bottom: 2px solid #131313;
+}
+.chicha{
+	background: #cfcfcf
+}
+
+/* /////////////////////// */
+
+.tovari {
+	display: flex;
+	justify-content:center;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.tovar_row {
+	padding: 0 10%;
+	display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.tovar {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 250px;
+}
+
+.tovar_topblock {
+	display: flex;
+	background: #e2e2e2;
+	height: 350px;
+	border-radius: 30px;
+	position: relative;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+}
+
+.tovar_price {
+	top: 0;
+	left: 0;
+	background: black;
+	position: absolute;
+	width: 120px;
+	height: 40px;
+	border-bottom-right-radius: 30px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+}
+
+.tovar_hoverButton {
+	background: #eee;
+	border-radius: 30px;
+	position: absolute;
+	margin: auto;
+	width: 120px;
+	height: 40px;
+	color: black;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;	
+}
+
+.tovar_topblock:hover .tovar_hoverButton {
+	display: flex;
+}
+
+.tovar_title {
+	border: 2px solid #e2e2e2;
+	width: 100%;
+	padding: 15px 0;
+	border-radius: 30px;
+	color: #000;
+	display: flex;
+	font-size: 18px;
+	justify-content: center;
+}
+
+.tovar_hoverShadow {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: #000;
+	opacity: 30%;
+}
+
+.tovar_topblock:hover .tovar_hoverShadow {
+	opacity: 60%;
+}
+
+.foot a{
+	color: #eee;
+	margin-left: 10px;
+}
+footer nav a:hover{
+	border-bottom: 1px solid #eee
+}
+.logo2{
+	/* border-bottom: 3px solid #eee; */
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 30px 0;
+	font-size: 50px;
+	color: #eee;
+}
+.fa-telegram{
+	font-size: 48px;
+	color: white;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.fa-instagram{
+	font-size: 48px;
+	color: white;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+footer{
+	width: 100%;
+	height: auto;
+	background: #131313;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 25px;
+}
+.foot{
+	color: white;
+	background: #131313;
+	width: 100%;
+}
+footer {
+	margin-top:auto;
+}
+
+.old_price {
+	text-decoration: line-through;
+	color: rgb(172, 163, 163);
+	font-size: 12px;
+	position: absolute;
+	top: 3px;
+	right: 10px;
+}
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
